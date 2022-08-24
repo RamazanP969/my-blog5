@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #a4b1e6;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&family=Source+Sans+Pro:wght@600&display=swap");
+.menu{
+    margin-left: 10px;
+    border-radius: 32px;
+    background-color: white;
+    margin-top: 10px;
+    
+    width: 450px;
+    height: 80px;
+    box-shadow: 0 14px 28px #8f9cd4, 0 10px 10px #8f9cd4;
+    display: flex;
+    
+}
+
+.menu a{
+    background-color: white;
+    margin-left: 50px;
+    font-size: 55px;
+    
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    
+}
+.menu a:hover{
+    color:#8f9cd4;
+    font-size: 60px;
+    
+ }
+.logo-teleg img{
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-content p{
+    margin-top: 600px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 50px;
+    color:#494949;
+    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+}
+@media(max-width: 1000px){
+    .text-content p{
+        margin-top: 100px;
+        font-size: 80px;
+    }
+    .logo-teleg{
+        top:30%;
+    }
+}
+
+
+ 

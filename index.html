@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/pngwing.com (3).png">
+    <meta charset="UTF-8">
+    <link href="styles.css" rel = "stylesheet"/>
+    <title>COSMIC</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>      
+            <a href="#главная">Главная</a> 
+            <hr>       
+            <a href="#">Читать статьи</a>
+            <ul>
+             <li><a href="#">Здесь пусто<a></li>
+            </ul>
+            <hr>
+            <a href="mystat.html">Написать статью</a>
+            <hr>
+            <a href="Donate.html">Donate♡</a>
+            <hr>
+            <a href="#">О нас</a>
+            <hr>
+            <a href="tel:+79872665320">Реклама</a>
+            
+          </div>
+          
+          <div id="main">
+    
+            <span style="font-size:70px;cursor:pointer; color: rgb(32, 32, 32);" onclick="openNav()" >☰</span>
+          </div>
+          
+          <script>
+          function openNav() {
+              document.getElementById("mySidenav").style.width = "600px";
+              document.getElementById("main").style.marginLeft = "400px";
+          }
+          
+          function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
+     
+         <h1>COSMIC</h1>
+         <div  class="plus">
+         <a href="mystat.html"><div class="top-right"><img src="img/Untitled.png"></div></a>
+         </div>
+     </div>
+     <div class="content">
+        <div class="avatar">
+            <p>Автор: Ш.Рамазан</p>
+            <p>24.07.2022</p>
+        </div>
+
+        <div class="img.main_content">
+            <div class="container">
+                <img src="img/11abc1d3e7c9bbbeccf3d2fb92ebe312.jpg" alt="Error404" style="width:100%;">
+
+                <div class="centered">
+                 <h1>How old is Disney?</h1>
+                </div>
+              </div>
+        </div>
+        <div class="text_content">
+            <h2>Sed voluptas illum error</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptas illum error nihil, rerum quis repudiandae culpa expedita repellendus aut alias quas, molestiae iusto, consequuntur quos. Magnam eaque at inventore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptas illum error nihil, rerum quis repudiandae culpa expedita repellendus aut alias quas, molestiae iusto, consequuntur quos. Magnam eaque at inventore.</p>
+            <h2>Sed voluptas illum error</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptas illum error nihil, rerum quis repudiandae culpa expedita repellendus aut alias quas, molestiae iusto, consequuntur quos. Magnam eaque at inventore.</p>
+        </div>
+        <div class="img-content">
+            <img src="img/Цветы.jpg" alt="error404" >
+        </div>
+        <div class="text_content">
+            <h2>Ramazan</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptas illum error nihil, rerum quis repudiandae culpa expedita repellendus aut alias quas, molestiae iusto, consequuntur quos. Magnam eaque at inventore.</p>
+           
+           
+        </div>
+
+     </div>
+
+     
+     <button class="accordion">Коментарии<img src="img/13673.png" ></button>
+<div class="panel">
+  <p>Коментарии...</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+
+<a href="#"><button class="accordion1" >Поддержать автора ♡</button></a>
+
+
+<div class="ad_co">
+    <a href="tel:+79872665320"><img src="img/ad.png"></a>
+ </div>
+
+<div class="footer">
+    <div class="name_foot">
+        <h2>footer</h2>
+        <p style="margin-left: 42%;">made for</p>
+        <p style="margin-left: 37%;">RamazanStudio</p>
+    </div>
+</div>
+</body>
+</html>
